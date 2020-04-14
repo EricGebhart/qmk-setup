@@ -1,0 +1,2 @@
+# tmk keyboard products     https://github.com/tmk/tmk_keyboard
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="feed", MODE:="0666"

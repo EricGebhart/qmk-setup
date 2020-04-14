@@ -1,0 +1,3 @@
+# ModemManager should ignore the following devices
+ATTRS{idVendor}=="2a03", ENV{ID_MM_DEVICE_IGNORE}="1"
+ATTRS{idVendor}=="2341", ENV{ID_MM_DEVICE_IGNORE}="1"
